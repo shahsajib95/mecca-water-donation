@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.high,
+.High {
+  background-color: #f87171;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.low,
+.Low {
+  background-color: #fef08a;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.medium,
+.Medium {
+  background-color: #60a5fa;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  border: thin solid grey;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ql-editor {
+  height: 100px !important;
+  width: 500px !important;
+}
+
+.comment .ql-editor {
+  height: inherit !important;
+  border: none !important;
+  margin-top: 45px !important;
+}
+
+.comment .ql-container {
+  height: inherit !important;
+  border: none !important;
+}
+
+.comment .ql-toolbar {
+  position: absolute;
+  top: 0px !important;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(82, 82, 82, 0.27);
+}
+
+.drTextareaDiv {
+  margin: 0 0 20px 0px;
+}
+
+.ql-toolbar {
+  background-color: transparent !important;
+}
+
+.dark .ql-editor {
+  color: #fff !important;
+}
+
+h1 {
+  font-size: 2rem !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 1rem !important;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 120px;
+  height: 22px;
+  border-radius: 40px;
+  color: #514b82;
+  border: 2px solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  margin: 2px;
+  width: 14px;
+  top: 0;
+  bottom: 0;
+  left: -20px;
+  border-radius: inherit;
+  background: currentColor;
+  box-shadow: -10px 0 12px 3px currentColor;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%, -30px 50%);
+  animation: l14 1s infinite linear;
+}
+
+@keyframes l14 {
+  100% {
+    left: calc(100% + 20px);
+  }
+}
+
+.data-\[state\=active\]\:shadow-sm[data-state="active"] {
+  border-bottom: 2px solid #4a70ea;
+}
+
+/* Global scrollbar settings (applies to all scrollbars) */
+/* Visible scrollbar with 4px width */
+::-webkit-scrollbar {
+  width: 2px; /* Reduced scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light background for track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Default thumb color */
+  border-radius: 2px; /* Slightly rounded scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; /* Darker color on hover */
+}
+
+/* Firefox scrollbar settings */
+* {
+  scrollbar-width: thin; /* Thin scrollbar for Firefox */
+  scrollbar-color: #888888 transparent; /* Thumb and track colors */
+}
+
+/* Ensure scroll functionality remains */
+body {
+  overflow-y: scroll; /* Keep vertical scrolling enabled */
+}
+
+/* Dark mode styling for scrollbars */
+.dark ::-webkit-scrollbar-track {
+  background: #d1d1d1; /* Dark track background */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #5e5c5c7d; /* Slightly transparent thumb */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Brighter thumb on hover */
+}
+
+.dark ::-webkit-scrollbar-corner {
+  background: #e7e6e6; /* Dark corner color */
+}
+
+/* Modal-specific adjustments */
+/* Add padding to modal content to prevent scrollbar overlap */
+.modal-content {
+  position: relative;
+  padding-right: 10px; /* Adjusted for thinner scrollbar */
+  overflow-y: auto; /* Ensure content inside modal is scrollable */
+}
+
+.pushed-back {
+  clip-path: url(#triangle) !important;
+}
+
+.ant-drawer-body {
+  padding: 0 !important;
+}
+
+.dark .ant-drawer-close {
+  color: #ffff;
+}
+
+.dark .ant-drawer-content-wrapper {
+  border-left: 1px solid #313131;
+}
