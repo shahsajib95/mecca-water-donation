@@ -702,111 +702,11 @@
     }
   ],
   "cart": [],
-  "orders": [
-    {
-      "id": "56c5",
-      "items": [
-        {
-          "id": "7",
-          "title": "5 Cartons - Head Edition",
-          "description": "396 ml • 11 bottles",
-          "price": "41.0",
-          "image": "/images/product.png",
-          "features": [
-            "Organized impactful encoding",
-            "Matrix one-to-one roi",
-            "Address scene chance",
-            "Executive traditional according later generation art",
-            "Economy raise common"
-          ],
-          "quantity": 1
-        }
-      ],
-      "total": 41,
-      "date": "2025-06-23T12:18:00.404Z",
-      "status": "pending"
-    },
-    {
-      "id": "cdee",
-      "items": [
-        {
-          "id": "1",
-          "title": "3 Cartons - Pay Edition",
-          "description": "325 ml • 12 bottles",
-          "price": "132.0",
-          "image": "/images/product.png",
-          "features": [
-            "Innovative client-server collaboration",
-            "Re-intermediate back-end bandwidth",
-            "Meet professional off officer alone wear",
-            "Read without and art move before song",
-            "Until but identify still condition"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "8",
-          "title": "3 Cartons - Avoid Edition",
-          "description": "379 ml • 16 bottles",
-          "price": "119.0",
-          "image": "/images/product.png",
-          "features": [
-            "Re-engineered interactive methodology",
-            "Orchestrate strategic e-tailers",
-            "Memory key area then eight especially",
-            "Move read direction whom",
-            "Marriage enjoy difference present"
-          ],
-          "quantity": 1
-        }
-      ],
-      "total": 251,
-      "date": "2025-06-24T04:55:04.974Z",
-      "status": "pending"
-    },
-    {
-      "id": "69c7",
-      "items": [
-        {
-          "id": "1",
-          "title": "3 Cartons - Pay Edition",
-          "description": "325 ml • 12 bottles",
-          "price": "132.0",
-          "image": "/images/product.png",
-          "features": [
-            "Innovative client-server collaboration",
-            "Re-intermediate back-end bandwidth",
-            "Meet professional off officer alone wear",
-            "Read without and art move before song",
-            "Until but identify still condition"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "2",
-          "title": "10 Cartons - She Edition",
-          "description": "492 ml • 29 bottles",
-          "price": "45.0",
-          "image": "/images/product.png",
-          "features": [
-            "Team-oriented 24hour pricing structure",
-            "Brand visionary e-business",
-            "List through thank reason and third",
-            "Whose up help price about speak camera",
-            "Fund eye sure carry"
-          ],
-          "quantity": 1
-        }
-      ],
-      "total": 177,
-      "date": "2025-06-24T04:56:09.852Z",
-      "status": "pending"
-    }
-  ],
+  "orders": [],
   "users": [
     {
       "id": "1",
-      "name": "Test user k",
+      "name": "Test user",
       "email": "user@example.com",
       "phone": "01233333333"
     }
