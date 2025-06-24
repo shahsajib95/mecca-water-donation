@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
       <div className="flex justify-center">
-        <img src={"/images/live.png"} />
+        <img src={"/images/live.svg"} />
       </div>
       <div className="flex justify-center">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
