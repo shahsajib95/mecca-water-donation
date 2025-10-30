@@ -25,7 +25,7 @@ function TestFormInputFile<T extends FieldValues>({
   className,
   ...props
 }: FormInputFileProps<T>) {
-  console.log("form", form?.getValues("attachment"))
+  // console.log("form", form?.getValues("attachment"))
   return (
     <FormField
       control={form.control}
